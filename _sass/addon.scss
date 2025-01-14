@@ -1,0 +1,37 @@
+#about-me {
+  background-color: transparent; /* 背景透明 */
+  padding: 0; /* 删除内边距 */
+  margin-bottom: 0; /* 删除外边距 */
+  border: none; /* 删除边框 */
+  box-shadow: none; /* 删除阴影 */
+  border-radius: 0; /* 删除圆角 */
+}
+
+#about-me h2 {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 0;
+}
+
+#about-me h3 {
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 0;
+}
+
+#about-me p {
+  font-size: 1.2rem;
+  line-height: 1.6;
+  color: #555;
+}
+
+#about-me a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+#about-me a:hover {
+  text-decoration: underline;
+}
