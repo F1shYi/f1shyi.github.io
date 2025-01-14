@@ -17,7 +17,6 @@ permalink: /
 
 ---
 
-
 ## About Me 👋
 
 Hello! I’m an undergraduate student at Peking University, majoring in Intelligent Science and Technology (Class of 2022). I have a deep passion for **AI-generated content (AIGC)**, particularly in **deep music generation**. My current research focuses on exploring innovative applications of deep learning models in symbolic music generation, with plans to incorporate domain-specific knowledge to enhance generation quality.
