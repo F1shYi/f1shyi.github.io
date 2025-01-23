@@ -2,7 +2,7 @@
 title: A Conditional Diffusion Model for Hand-drawing Generation
 date: 2024-11-28 14:00:00 +/-0000
 categories: [Course, Project]
-tags: [course project, diffusion]     # TAG names should always be lowercase
+tags: [course project, diffusion, generative model]     # TAG names should always be lowercase
 author: fishyi
 ---
 
