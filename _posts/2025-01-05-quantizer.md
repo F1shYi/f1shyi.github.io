@@ -18,10 +18,10 @@ Given a n-dimensional continuous space, how to quantize the vectors within with 
 
 The ground truth of 2d case should be a hexagonal lattice. The ground truth of 3d case should be a face-centered cubic lattice. Our visulization results shown below are consistent with the ground truth.
 
-![2d](/assets/post/2025-01-05-quantizer/2d.png)
+![2d](/assets/post/quantizer/2d.png)
 _2d hexagonal lattice_
 
-![3d](/assets/post/2025-01-05-quantizer/3d_rotation_up_down.gif)
+![3d](/assets/post/quantizer/3d_rotation_up_down.gif)
 _3d face-centered cubic lattice_
 
 For more results, please refer to our [github page](https://github.com/1-rambo/PKU_machine_learning_term_proj).
