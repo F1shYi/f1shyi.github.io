@@ -16,6 +16,10 @@ math: true
 
 在原论文里$$\phi$$实现为一个低通滤波器，提取了色块，低频特征等语义。
 
+## Sketch-Guided Text-to-Image Diffusion Models
+
+[Sketch-Guided Text-to-Image Diffusion Models](https://arxiv.org/abs/2211.13752)实现了让文生图的生成结果符合sketch的线条。其做法为，固定UNet $$U$$，对去噪步$$z_t$$，取$$U(z_t)$$的一些隐藏激活层作为特征，并根据这个特征训练一个edge predictor。edge predictor训练好后，在inference的过程中，用edge predictor的结果和真实的edge guidance之间的距离作为损失，优化$$z_t$$使得其边缘靠近给定的edge guidance image.
+
 ## Latent Aligners
 
 [Seeing-and-Hearing](https://arxiv.org/pdf/2402.17723)的想法类似，但做法不同，它并不是将条件也加噪，然后让$$x_t$$去靠近$$y_t$$；它是先直接将$$x_t$$一步到位地解码成$$x_0$$，并计算$$x_0$$与$$y$$之间的距离$$l(x_0,y)$$，然后优化$$l(x_0,y)$$，更新$$x_t$$使得距离变小。这个方法的好处是距离函数$$l$$的选择可以是基于预训练好的编码器的，甚至可以是跨模态的编码器，在一个shared embedding space中计算距离。
